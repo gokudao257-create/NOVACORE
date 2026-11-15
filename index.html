@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="NOVACORE — Streetwear contemporain. Des pièces fortes, une identité sans compromis.">
+  <title>NOVACORE — Streetwear / Core collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">NOVACORE / BUILT DIFFERENT — LIVRAISON À BAMAKO & PARTOUT AU MALI</div>
+  <header class="site-header">
+    <a class="wordmark" href="#" aria-label="NOVACORE accueil">NOVA<span>CORE</span><i>®</i></a>
+    <nav class="desktop-nav">
+      <a href="#collection">COLLECTION</a><a href="#story">L'UNIVERS</a><a href="#contact">CONTACT</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn search-toggle" aria-label="Rechercher">⌕</button>
+      <button class="cart-trigger" aria-label="Ouvrir le panier">PANIER <span id="cart-count">0</span></button>
+      <button class="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+    </div>
+  </header>
+
+  <div class="search-panel" id="search-panel">
+    <input id="search-input" type="search" placeholder="Rechercher un article..." aria-label="Rechercher un article">
+    <button id="search-close" aria-label="Fermer">✕</button>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grain"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">NOVACORE — DROP 001 / 2026</p>
+        <h1>OWN YOUR<br><span>IDENTITY.</span></h1>
+        <p class="hero-sub">Pas besoin de suivre le mouvement.<br>Crée le tien.</p>
+        <a class="btn btn-light" href="#collection">DÉCOUVRIR LA COLLECTION <b>↗</b></a>
+      </div>
+      <div class="hero-mark">NC<span>®</span></div>
+      <div class="hero-bottom"><span>STREETWEAR / EST. 2026</span><span>01 — 03</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Signature de la marque"><div>NO RULES. NO LIMITS. JUST CORE.　✳　NO RULES. NO LIMITS. JUST CORE.　✳　</div></section>
+
+    <section class="collection section-wrap" id="collection">
+      <div class="section-heading">
+        <div><p class="eyebrow">SELECTED PIECES / 001</p><h2>THE CORE<br><span>COLLECTION.</span></h2></div>
+        <p class="section-note">Des essentiels revisités.<br>Une présence qui ne demande pas la permission.</p>
+      </div>
+      <div class="shop-tools">
+        <div class="filters" role="group" aria-label="Filtrer les produits">
+          <button class="filter active" data-filter="all">TOUT</button>
+          <button class="filter" data-filter="hoodie">HOODIES</button>
+          <button class="filter" data-filter="tshirt">T-SHIRTS</button>
+          <button class="filter" data-filter="accessoire">ACCESSOIRES</button>
+        </div>
+        <span id="result-count">03 ARTICLES</span>
+      </div>
+      <div class="product-grid" id="product-grid">
+        <article class="product-card" data-category="hoodie" data-name="Hoodie split identity">
+          <button class="product-image image-hoodie" data-product="hoodie" aria-label="Voir Hoodie Split Identity">
+            <img src="assets/hoodie-collab-reference.png" alt="Référence visuelle de hoodies noir et blanc">
+            <span class="tag">DROP 001</span><span class="quick-view">APERÇU ↗</span>
+          </button>
+          <div class="product-info"><div><h3>HOODIE / SPLIT IDENTITY</h3><p>Black · White · Grey</p></div><strong>À PARTIR DE 18 000 FCFA</strong></div>
+        </article>
+        <article class="product-card" data-category="tshirt" data-name="T-shirt monogram">
+          <button class="product-image image-tee" data-product="tee" aria-label="Voir T-shirt Monogram">
+            <img src="assets/tee-pattern-reference.jpg" alt="T-shirt noir à motifs monogrammes, référence visuelle">
+            <span class="tag">BEST SELLER</span><span class="quick-view">APERÇU ↗</span>
+          </button>
+          <div class="product-info"><div><h3>T-SHIRT / MONOGRAM</h3><p>Black · Ton sur ton</p></div><strong>À PARTIR DE 9 000 FCFA</strong></div>
+        </article>
+        <article class="product-card" data-category="accessoire" data-name="Core cap">
+          <button class="product-image image-cap" data-product="cap" aria-label="Voir Core Cap">
+            <div class="cap-art"><span>NC</span><small>NOVACORE / 001</small></div>
+            <span class="tag">COMING SOON</span><span class="quick-view">APERÇU ↗</span>
+          </button>
+          <div class="product-info"><div><h3>CORE CAP / 001</h3><p>Black · Minimal</p></div><strong>À PARTIR DE 6 000 FCFA</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto" id="story">
+      <div class="manifesto-image"><img src="assets/hoodie-collab-reference.png" alt="Détails de hoodies streetwear noir et blanc"></div>
+      <div class="manifesto-copy"><p class="eyebrow">MORE THAN FASHION / IT'S A MINDSET</p><h2>NOT MADE<br>TO <span>BLEND IN.</span></h2><p>NOVACORE est une vision du streetwear : des silhouettes affirmées, des détails maîtrisés et une identité qui t'appartient. Chaque pièce est pensée pour sortir du lot sans en faire trop.</p><a href="#collection" class="text-link">TROUVER TON STYLE <b>↗</b></a></div>
+    </section>
+
+    <section class="values">
+      <div><span>01</span><h3>IDENTITY FIRST</h3><p>Exprime ton style. Ne le copie pas.</p></div>
+      <div><span>02</span><h3>DETAIL MATTERS</h3><p>Les détails font la différence.</p></div>
+      <div><span>03</span><h3>BUILT FOR YOU</h3><p>Du caractère, au quotidien.</p></div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-top"><a class="wordmark" href="#">NOVA<span>CORE</span><i>®</i></a><p>OWN YOUR IDENTITY.</p></div>
+    <div class="footer-bottom"><span>© 2026 NOVACORE. ALL RIGHTS RESERVED.</span><span>MADE FOR THE BOLD.</span><a href="https://instagram.com/" target="_blank" rel="noreferrer">INSTAGRAM ↗</a></div>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Panier">
+    <div class="drawer-head"><div><p class="eyebrow">YOUR SELECTION</p><h2>TON PANIER <span id="drawer-count">(0)</span></h2></div><button id="cart-close" aria-label="Fermer le panier">✕</button></div>
+    <div class="cart-items" id="cart-items"><p class="empty-cart">Ton panier est encore vide.</p></div>
+    <div class="drawer-foot"><div class="total-line"><span>SOUS-TOTAL</span><strong id="cart-total">0 FCFA</strong></div><p class="checkout-note">Les frais de livraison seront confirmés lors de la commande.</p><button class="btn btn-light checkout-btn" id="checkout">COMMANDER SUR WHATSAPP ↗</button></div>
+  </aside>
+
+  <div class="modal-backdrop" id="modal-backdrop">
+    <div class="product-modal" role="dialog" aria-modal="true" aria-label="Détails du produit">
+      <button class="modal-close" id="modal-close" aria-label="Fermer">✕</button>
+      <div class="modal-visual" id="modal-visual"></div>
+      <div class="modal-details"><p class="eyebrow">NOVACORE / DROP 001</p><h2 id="modal-title">PRODUCT NAME</h2><p id="modal-description">Une pièce forte pour ton quotidien.</p><strong id="modal-price"></strong>
+        <label for="size-select">TAILLE</label><select id="size-select"><option value="S">S</option><option value="M" selected>M</option><option value="L">L</option><option value="XL">XL</option><option value="XXL">XXL</option></select>
+        <label for="qty-select">QUANTITÉ</label><div class="qty-control"><button id="qty-minus">−</button><span id="qty-value">1</span><button id="qty-plus">+</button></div>
+        <button class="btn btn-light add-btn" id="add-to-cart">AJOUTER AU PANIER +</button>
+        <p class="modal-small">La disponibilité et le délai sont confirmés après commande.</p>
+      </div>
+    </div>
+  </div>
+  <div class="toast" id="toast">Ajouté au panier ✓</div>
+  <script src="script.js"></script>
+</body>
+</html>
